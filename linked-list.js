@@ -1,8 +1,8 @@
 import Node from "./node.js";
 
 export default class LinkedList {
-  #head;
-  #tail;
+  #head = null;
+  #tail = null;
   #size = 0;
 
   // Creates a new node, checks if head of list is empty and assigns it, else assigns it after the current node
